@@ -20,10 +20,22 @@ echo -e "\n\n"
 
 if [[ choice -eq 1 ]]
 then 
-  wget -q -O- https://raw.githubusercontent.com/gokz1119/S5-SS_Lab/master/paging.c
+  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/cn/distancevector.c
 elif [[ choice -eq 2 ]]
 then
-  wget -q -O- https://raw.githubusercontent.com/gokz1119/S5-SS_Lab/master/file_indexed.c
+  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/cn/go_back_n.c
+elif [[ choice -eq 3 ]]
+then
+  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/cn/leakybucket.c
+elif [[ choice -eq 4 ]]
+then
+  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/cn/linkstate.c
+elif [[ choice -eq 5 ]]
+then
+  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/cn/selectiverepeat.c
+elif [[ choice -eq 6 ]]
+then
+  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/cn/stopandwait.c
 else 
   echo "Invalid: $choice"
 fi
