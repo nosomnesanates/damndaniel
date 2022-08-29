@@ -10,7 +10,8 @@ echo "
 4. LINK STATE ROUTING
 5. SELECTIVE REPEAT
 6. STOP AND WAIT
-
+7. TCP
+8. UDP
 
 "
 
@@ -36,6 +37,12 @@ then
 elif [[ choice -eq 6 ]]
 then
   wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/cn/stopandwait.c
+elif [[ choice -eq 7 ]]
+then
+  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/cn/tcppgm.c
+elif [[ choice -eq 8 ]]
+then
+  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/cn/udppgm.c
 else 
   echo "Invalid: $choice"
 fi
