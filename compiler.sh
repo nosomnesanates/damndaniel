@@ -46,7 +46,9 @@ then
   wget -q -O- https://raw.githubusercontent.com/nosomnesanates/CD_Lab_S7/master/String_Operation/string_operation.lex
 elif [[ choice -eq 5 ]]
 then
-  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/cn/selectiverepeat.c
+  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/CD_Lab_S7/master/Arithmetic_Exp/arith_exp.l
+  echo "\nYACC FILE\n"
+  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/CD_Lab_S7/master/Arithmetic_Exp/arith_exp.y
 elif [[ choice -eq 6 ]]
 then
   wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/cn/stopandwait.c
