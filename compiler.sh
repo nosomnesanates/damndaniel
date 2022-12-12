@@ -46,21 +46,19 @@ then
   wget -q -O- https://raw.githubusercontent.com/nosomnesanates/CD_Lab_S7/master/String_Operation/string_operation.lex
 elif [[ choice -eq 5 ]]
 then
-  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/CD_Lab_S7/master/Arithmetic_Exp/arith_exp.l
-  echo "\nYACC FILE\n"
-  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/CD_Lab_S7/master/Arithmetic_Exp/arith_exp.y
+  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/compiler/cycle2/arith_exp.l
 elif [[ choice -eq 6 ]]
 then
-  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/cn/stopandwait.c
+  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/compiler/cycle2/valid_id.l
 elif [[ choice -eq 7 ]]
 then
-  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/cn/tcppgm.c
+  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/compiler/cycle2/calc.l
 elif [[ choice -eq 8 ]]
 then
-  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/cn/udppgm.c
+  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/compiler/cycle2/syntaxtree.l
 elif [[ choice -eq 9 ]]
 then
-  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/cn/udppgm.c
+  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/CD_Lab_S7/master/Epsilon_Closure/epsilon_closure.c
 elif [[ choice -eq 10 ]]
 then
   wget -q -O- https://raw.githubusercontent.com/nosomnesanates/CD_Lab_S7/master/Epsilon_remove/epsilon_remove.c
