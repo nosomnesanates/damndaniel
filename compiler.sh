@@ -26,6 +26,8 @@ echo "
 17. INTERMEDIATE CODE GENERATION FOR SIMPLE EXPRESSIONS
 18. BACK-END OF COMPILER (TAKES IN 3 ADDRESS CODE AND PRODUCES 8086 INSTRUCTIONS)
 
+19. COUNT VOWELS
+
 "
 
 read -p "pick your poison: " choice </dev/tty
@@ -86,6 +88,9 @@ then
 elif [[ choice -eq 18 ]]
 then
   wget -q -O- https://raw.githubusercontent.com/nosomnesanates/CD_Lab_S7/master/Three_Address_To_Assembly/three_addr_to_assm.c
+elif [[ choice -eq 19 ]]
+then
+  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/CD_Lab_S7/master/Vowels/vowels.l
 else 
   echo "Invalid: $choice"
 fi
