@@ -47,7 +47,9 @@ then
 elif [[ choice -eq 5 ]]
 then
   wget -q -O- https://raw.githubusercontent.com/nosomnesanates/CD_Lab_S7/master/Arithmetic_Exp/arith_exp.l
-  elif [[ choice -eq 6 ]]
+  echo "\nYACC FILE\n"
+  wget -q -O- https://raw.githubusercontent.com/nosomnesanates/CD_Lab_S7/master/Arithmetic_Exp/arith_exp.y
+elif [[ choice -eq 6 ]]
 then
   wget -q -O- https://raw.githubusercontent.com/nosomnesanates/Welp/main/cn/stopandwait.c
 elif [[ choice -eq 7 ]]
